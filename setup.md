@@ -106,11 +106,36 @@ void main() {
    MyClass c = new MyClass('EA888'); 
 } 
 class MyClass {
-   num Count = 0; 
-   MyClass(String engine) { 
-      
-   } 
-}
+  //num currCount = 0;
+  num count;
+
+  MyClass({count}){
+    currCount = count;
+  }
+
+  void chageCount(String type) {
+    switch(type) {
+      case 'add':
+        currCount++;
+        break;
+      case 'remove':
+        currCount--;
+        break;
+    }
+  }
+
+  void set currCount(num count) {
+    if(count>= 5) {
+      this.count = 0;
+    }  else {
+      this.count = count;
+    }
+  }
+
+  num get currCount {
+    return count;
+  }
+};
 ```
 
 
