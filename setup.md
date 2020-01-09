@@ -103,7 +103,16 @@ class MyClass {
 ```
 //构建函数
 void main() { 
-   MyClass myClass = new MyClass('EA888'); 
+   MyClass myClass = new MyClass(
+     count: 3
+   ); 
+   myClass.chageCount('add');
+   print(myClass.currCount); //4
+   myClass.chageCount('add');
+   print(myClass.currCount); //5
+   myClass.chageCount('add');
+   print(myClass.currCount); //0
+
 } 
 class MyClass {
   //num currCount = 0;
