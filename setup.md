@@ -91,7 +91,7 @@ class MyClass {
    <fields> //字段是类中声明的任何变量，字段表示与对象有关的数据。
    <getters/setters> //允许程序初始化和检索类字段的值，默认的getter/setter与每个类相关联。但是可以通过显式定义setter/getter来覆盖默认值。
    <constructors> //负责为类的对象分配内存。
-   <functions> 
+   <functions> //函数表示对象可以采取的操作，它们有时也称为方法。
 }
 ```
 
