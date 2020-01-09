@@ -41,12 +41,12 @@ C. 函数的定义\(声明方式需要用void，有返回的必须用返回值�
 
 ```
 // 无返回结果的函数
-void fn (String msg) {
+void fn(String msg) {
     print(msg);
 }
 
 // 返回字符串
-String fn () {
+String fn() {
     return 'Hello, World!';
 }
 ```
@@ -54,6 +54,18 @@ String fn () {
 D. 函数的参数传递
 
 ```
+String fn(String msg) {
+    return msg;
+}
+fn('Hello, World!') 
+
+String fn({String msg}) {
+    return msg;
+}
+fn(
+    msg: 'Hello, World!'
+) 
+
 
 ```
 
