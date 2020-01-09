@@ -117,7 +117,7 @@ void main() {
 } 
 class MyClass {
   //num currCount = 0;
-  //私有变量
+  //私有变量(实例化中无法访问)
   num _count;
 
   void set currCount(num count) {
