@@ -82,6 +82,13 @@ print(user);                    // {}
 print(user.isEmpty);            // true
 ```
 
+List的操作
+
+```
+
+```
+
+  
 **函数的定义**
 
 声明方式需要用void，有返回的必须用返回值的类型声明
