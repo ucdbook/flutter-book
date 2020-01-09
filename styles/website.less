@@ -1,0 +1,113 @@
+@bar-bg-color: #3a3d4c;
+
+.gitbook-link{
+    display: none !important;
+}
+#anchor-navigation-ex-navbar{
+    display: none !important;
+}
+.book-summary{
+    background: @bar-bg-color;
+    color:#fff;
+    width: 225px;
+    overflow-x: hidden;
+}
+@media (min-width: 600px) {
+    .book.with-summary .book-body {
+        left: 225px;
+    }
+}
+.book-summary::before{
+    content:"";
+    width:100%;
+    height: 56px;
+    background-size: auto 130%;
+    display: block;
+    background-repeat: no-repeat;
+    margin-left:8px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABwCAMAAACTmL1/AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAA8UExURUdwTP///////////////////////////////////////////////////////////////////////////4/JsPUAAAATdFJOUwAn9ehWDs1FlgfbeaRoGsA0iLHgYNbbAAAGoUlEQVR42u2b2bKrOAxF8QQGj8D//2t7wgMYkqruJudBu+reyklIAostWRJkGEAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAI9FvNdDULwZgs20o18HgU2muNigGSrvQ6n2HtO+Zgr078yX3vwHK4xAx0TuGH9woWIbgORgR8ak1kT7A2YUOemq3aDmJ4AkJFKkI5x9usxkSLAqNDdO/D8hiTu1ag1LLysC68kImvQSTGkgFXsJC6vC5izv9YQpRlYLL9jWnYhLFPxVs6Y3+waJnHvYbVsRD/Cta0b7YUtr0FlOFd2oFdbGqnSnpgfIs7RhaRvtSO9m/AisbhGdaFiiZfheHmNtLHckHuvol2YMm6rKOM+K1SdogbWpyXmLHVyw0GC0G4sAxrH095KyQt8U2fZPLBb71vchSW4SMs/yfxu+AcP1bnM+aHU8X8cqSuoTSwc4G1y+sG28cc4q1JxerloIxr0tR+kGpg6Qhg9YnA2cS9j4xTyKHu3Ng9OcybDB+0fgorGksMNazGRlM0nvcOYc+fQ2ZyaZZ4yUz+c+Yall6SXVg8bJ7OkwhhLLOx/F4ctKZW73ZioRx1x3DAikE3tQkLo7gQqOfMJ4YHWGEdmYYKlmOVHp1gucxuB91Gq6f188rYpHSQYTF/CAQ1SyVNcTbeG4uERCM3J5+atiSp6iCUQwUL+S9a0BnWJKUcN/fPnSP3MMOmv+8idMhYrILllx6HhVVVA8+V622KkDkDD8Oydyzo3x7DOMEK3eiocxgKpYyHpVpnlmX191UXPbJ3gVWeSw/NnLHRp2BGD1VWOANiKLDCsmHSKWGZzQMsv5P8qhc7i/VYlCtYkYs45jap7qIPHWLYbkc27L3xE8OitZRqBRYN0b8d6bmGZYWXe30JDxqPsv0q9XLKsidYc0ryMWFNVcBuTz0Aop1j8ZVVTE81LNyS909JzsdStaz1d+lUhugfwwqHyU6wjiVQNmUETkfeL7GeYKG0SIraHsvUOqZaDYfmYZneohSGvo77RRgGKsMZVqiJdtJ6adlvupgZR6vEMHT4CW/D0J8RQxIsvcZ4Y8MTLHmu0KqkqFMwvC58EGhh5TS7sMaE+KYrxDQfi7m2Rh7CvITn9Yo7w8QrrK2O0hCGBRaPfRUS8o/ASv0aRsMXsBSe8hKIOgXG5F0SYAncHY55WKPx5pOXulaUPUW5V6DR6S9XXiHz9mBV1Wi1aT9naVrqBVfJj3U/EvKhGA5Y+y2sYzX8CEuk3VBPRfL/txrqAxY6VWDL2YTmaeaAMv1KtmItvCsW9e9g+TY7rIDz69aS+YDI6RjOsNh96VDBmvZHWIPqzbNi6WXtFuosr+BAGR7qE6zSdb1urVyUxiXrARZ9vGxxwBL1ZI7UZl3aCv45wfP9EvMJls1tOOVvr4rBCSZ7TOpbWPxxXNrrcSypF8YvYWmdbI5PW0VYflJhJsU3coTtmwN4fFSlqZhZjB8WzFdYPhnh+QtYc8VqG55hrRtlDSwch1Y+LE9BFmCxc0bDr86VtxyHvNqHK6xiwQ+wFFnRMdysR+RdWDw+GZ5Skhz7YvxXbW0rE51V1g9sVjq+2u2U4Z9zxIofYI3PfVips/yHOL/waqhwDysCmUQzg4/G8lavrp3YmKD8xxIj13hR7e0UH8fKKo3E+WaCLrCCsR7GyhlWuoLt/5fz8AmWCXCqCxZGx850iS/maydhCE/QgCZUfaoe+bvFg7jB0MAK49OnKzwlDJlIoXK6SNTAoiVj2rTQkk2E0qHMn21J4NMfuUElXmQwz7D4B2O1q2GcVrlKvgvLZ59FUaeAdY4GQceoQZvMSBxT2uC18KkLF5SW/oBS9a61VP/GjxoW3T9dOjyVDjZOuOpALLBMcyPmqeG2pDKlTLS20KXOW28ExN+1lukO0SpYkZUZvofl3kNOVVCBNbXXVFtYwUS6alBVTAJhmiuuV4/ebqbjzPfsrQKLfnFjyLUoZWsbtwXWgLiJJb7h9jzKcSirRVST8B42JgOySXDpFqGqTXj7OobF13lchsX4N7ccMaUuNzaj5i1UqU+9iaXUbdK8K50A9odu1EyjPqKusKblJ27/y6KpHh3p3MCicJtkLwKO1IkljWUfPS7CwA241yw/1ldk5ureSde9wO8GLqFILo10tJUCNp2Ca8VXWESArW5w0fQ7gQOWofBTlKeCiQpp/F2K02gE/CQMBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUD/nf4B67C086PqnAkAAAAASUVORK5CYII=")
+}
+.book-summary .divider{
+    display: none;
+}
+#book-search-input{
+    margin: 15px 15px 10px 20px;
+    padding:0;
+}
+.book-summary ul.summary li a, 
+.book-summary ul.summary li a:hover,
+.book-summary ul.summary li span{
+    text-decoration: none;
+    color:#c4c7d7;
+}
+.book-summary ul.summary li a:hover,{
+    color: #fff;
+}
+.book-summary ul.summary li.active>a{
+    background: #292c3e;
+    color: #fff;
+}
+#book-search-input input,
+#book-search-input input:hover{
+    border-radius: 4px;
+    background: #414454;
+    padding: 3px 7px;
+    color: #60647b;
+    border:1px solid #60647b;
+}
+#book-search-input input::-webkit-input-placeholder {
+    color: #60647b;
+}
+#book-search-input input::-moz-placeholder {
+    color:    #60647b;
+}
+#book-search-input input::-moz-placeholder {
+    color:    #60647b;
+}
+#book-search-input input::-ms-input-placeholder {
+    color:    #60647b;
+}
+#book-search-input input:focus, {
+    background: #fff;
+    border-radius: 4px;
+    padding: 3px 7px;
+    color: #333;
+    border:1px solid #414454;
+}
+.book .book-summary .exc-trigger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    vertical-align: middle;
+    padding-left: 19px;
+}
+.book-summary ul.summary li ul{
+    padding-left: 0;
+}
+
+.book .book-summary ul.summary li ul li a,
+.book .book-summary ul.summary li ul li a:hover{
+    padding-left:50px;
+}
+.book .book-summary ul.summary li ul li a .exc-trigger{
+    left:20px;
+}
+.book .book-summary ul.summary li ul li ul li a,
+.book .book-summary ul.summary li ul li ul li a:hover{
+    padding-left:70px;
+}
+.page-footer::before{
+    content: "Copyright ©️ 货嘀科技";
+    display: inline-block;
+}
+.page-footer > .copyright{
+    display: none;
+}
+#anchorNavigationExGoTop{
+    box-shadow: none;
+    border-radius: 30px;
+    bottom: 18px;
+}
