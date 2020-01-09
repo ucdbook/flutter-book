@@ -117,7 +117,7 @@ void main() {
 class MyClass {
   //num currCount = 0;
   num _count;
-  
+
   void set currCount(num count) {
     if(count>= 5) {
       this._count = 0;
@@ -130,11 +130,12 @@ class MyClass {
     return _count;
   }
 
-
+  //构建函数
   MyClass({count}){
     currCount = count;
   }
-
+  
+  //类的方法
   void chageCount(String type) {
     switch(type) {
       case 'add':
