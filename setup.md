@@ -127,7 +127,7 @@ list.replaceRange(1, 3, ['update1', 'update2']);
 print(list); // [update, update1, update2, d]
 ```
 
-与javascript对比，取、增、删的方式有一些小变化。
+与javascript对比，增、删的方式有一些小变化。
 
 **函数的定义**
 
