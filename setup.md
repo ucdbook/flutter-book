@@ -102,7 +102,6 @@ class MyClass {
 ```
 
 ```
-//构建函数
 void main() { 
    MyClass myClass = new MyClass(
      count: 3
