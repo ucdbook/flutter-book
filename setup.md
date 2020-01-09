@@ -55,8 +55,10 @@ D. 函数分必传参数与可选参数: 两种定义形式
 
 ```
 //可选位置参数
-String fn(String msg, [msgB]) {
-    return msg + msgB;
+//a: 必传参数
+//b: 可选参数
+String fn(String a, [b]) {
+    return a + b;
 }
 fn('Hello, ', 'World!') //Hello, World!
 
