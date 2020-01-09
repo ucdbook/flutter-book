@@ -4,7 +4,10 @@ dart官网\(中文\)：[https://dart.cn/tools/webdev](https://dart.cn/tools/webd
 
 收集的比较简洁易性的教程：[https://www.yiibai.com/dart/dart\_programming\_libraries.html](https://www.yiibai.com/dart/dart_programming_libraries.html)
 
-Dart可以对照web前端所熟习的Node。它的包管理用的是pub。Dart语法与Javascript还是很像的。Dart语法比javascript语法要严谨一些。如果写过typescript的人，因该更容易上手。这里
+Dart可以对照web前端所熟习的Node。
+
+1. Dart的包管理用的是pub。
+2. Dart语法与Javascript还是很像的。比javascript语法要严谨一些。有些地方必须要定义变量类型
 
 **每个应用都有一个 main\(\) 顶层函数**
 
