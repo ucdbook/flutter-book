@@ -41,8 +41,8 @@ C. 函数的定义\(声明方式需要用void，有返回的必须用返回值�
 
 ```
 // 无返回结果的函数
-void fn () {
-    print('Hello, World!');
+void fn (String msg) {
+    print(msg);
 }
 
 // 返回字符串
@@ -52,6 +52,10 @@ String fn () {
 ```
 
 D. 函数的参数传递
+
+```
+
+```
 
 
 
