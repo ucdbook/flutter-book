@@ -84,5 +84,19 @@ String fn({String msg}) {
 fn(msg: 'Hello, World!'); //Hello, World!
 ```
 
-类的定义
+**类的定义**
+
+```
+class MyClass {  
+   <fields> 
+   <getters/setters> 
+   <constructors> 
+   <functions> 
+}
+
+
+
+```
+
+
 
