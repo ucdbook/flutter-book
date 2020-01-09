@@ -1,7 +1,7 @@
 # Summary
 
 * [Flutter介绍](README.md)
-* [Dart语言](setup.md)
+* [Dart语言对比javascript](setup.md)
 * [Flutter入门](ru-men.md)
   * [环境安装](ru-men/huan-jing-an-zhuang.md)
   * [创建第一个Flutter](ru-men/chuang-jian-di-yi-ge-flutter.md)
