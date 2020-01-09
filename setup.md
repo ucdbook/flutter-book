@@ -84,5 +84,5 @@ String fn({String msg}) {
 fn(msg: 'Hello, World!'); //Hello, World!
 ```
 
-
+类的定义
 
