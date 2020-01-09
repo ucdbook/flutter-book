@@ -115,7 +115,7 @@ void main() {
   print(myClass.currCount); // 1
   myClass
   ..chageCount('add')
-  ..chageCount('add');  //联级运算符
+  ..chageCount('add');  //使用联级运算符
   print(myClass.currCount); // 3
 }
 class MyClass {
