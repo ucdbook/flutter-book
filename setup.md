@@ -95,5 +95,19 @@ class MyClass {
 }
 ```
 
+```
+//构建函数
+void main() { 
+   MyClass c = new MyClass('EA888'); 
+} 
+class MyClass { 
+   MyClass(String engine) { 
+      print(engine); 
+   } 
+}
+
+
+```
+
 
 
