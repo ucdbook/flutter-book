@@ -39,7 +39,5 @@ Widgets层是开发者最常接触到的一层。 Widget是对RenderObject的封
 
 Material+Cupertino层，在这一层，Flutter提供了一系列的Widget，其中Material Widget实现了Material Design。Cupertino提供了一系列的iOS-Style的控件。
 
-
-
-
+关于Framework各层级是如何工作的，可以参考这篇文章：[https://zhuanlan.zhihu.com/p/59478546](https://zhuanlan.zhihu.com/p/59478546)
 
