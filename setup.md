@@ -1,6 +1,6 @@
 ### Dart语言对比Javascript
 
-dart官网\(中文\)[https://dart.cn/tools/webdev](https://dart.cn/tools/webdev)
+dart官网\(中文\)：[https://dart.cn/tools/webdev](https://dart.cn/tools/webdev)
 
 收集的比较简洁易性的教程：[https://www.yiibai.com/dart/dart\_programming\_libraries.html](https://www.yiibai.com/dart/dart_programming_libraries.html)
 
