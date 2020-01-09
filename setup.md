@@ -41,18 +41,18 @@ num number = 5;
 int number = 5;
 double doubleNumber = 5.0
 
-var map = {'a': 1}; //{'a': 1}
-Map map = {'a': 1}; //{'a': 1}
+var map = {'a': 1}; // {a: 1}
+Map map = {'a': 1}; // {a: 1}
 Map map = Map(); 
-map.add('a', 1); //{'a': 1}
+map['a'] = 1; // {a: 1}
 
 
-var list = [1,1,1]; //[1,1,1]
-List<num> list = [1,1,1]; //[1,1,1]
+var list = [1,1,1]; // [1,1,1]
+List<num> list = [1,1,1]; // [1,1,1]
 List<num> list = List();
 list.add(1);
 list.add(1);
-list.add(1); //[1,1,1]
+list.add(1); // [1,1,1]
 ```
 
 **Map的操作**
@@ -73,7 +73,7 @@ user.forEach((key, value) {
                                  // key=adress value=杭州
 
 });
-                                
+
 user.remove('name');
 print(user);                    // {age: 23, adress: 杭州}
 
