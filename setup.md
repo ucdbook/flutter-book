@@ -64,9 +64,7 @@ fn('Hello, ', 'World!') //Hello, World!
 String fn({String msg}) {
     return msg;
 }
-fn(
-    msg: 'Hello, World!'
-); //Hello, World!
+fn(msg: 'Hello, World!'); //Hello, World!
 ```
 
 
