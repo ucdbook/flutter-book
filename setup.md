@@ -37,6 +37,19 @@ list.add(1);
 list.add(1); //[1,1,1]
 ```
 
-1. 
+C. 函数的定义\(声明方式需要用void，有返回的必须用返回值的类型声明\)
+
+```
+// 无返回结果的函数
+void fn () {
+    print('Hello, World!');
+}
+
+// 返回字符串
+String fn () {
+    return 'Hello, World!';
+}
+```
+
 
 
