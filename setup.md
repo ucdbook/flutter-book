@@ -59,13 +59,13 @@ list.add(1); //[1,1,1]
 
 ```
 Map user = {'name': 'XiaoHong', 'age': 23};
-print(user['name']); // XiaoHong
+print(user['name']);             // XiaoHong
 
 user.addAll({'adress': '杭州'});
-print(user); // {name: XiaoHong, age: 23, adress: 杭州}
+print(user);                     // {name: XiaoHong, age: 23, adress: 杭州}
 print(user.length); // 3
-print(user.keys.toList()); //[name, age, adress]
-print(user.values.toList()); //[XiaoHong, 23, 杭州]
+print(user.keys.toList());       //[name, age, adress]
+print(user.values.toList());     //[XiaoHong, 23, 杭州]
 
 user.forEach((key, value) {
   print('key=$key value=$value');
@@ -75,11 +75,11 @@ user.forEach((key, value) {
 // key=adress value=杭州
 
 user.remove('name');
-print(user); // {age: 23, adress: 杭州}
+print(user);                   // {age: 23, adress: 杭州}
 
 user.clear();
-print(user); // {}
-print(user.isEmpty); // true
+print(user);                   // {}
+print(user.isEmpty);           // true
 ```
 
 **函数的定义**
