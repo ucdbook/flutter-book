@@ -59,6 +59,8 @@ list.add(1); // [1,1,1]
 
 **Map的操作**
 
+与javascript对比，键值必须加引号、一些取、增、册的方式有一些小变化。
+
 ```
 Map user = {'name': 'XiaoHong', 'age': 23};
 print(user['name']);             // XiaoHong
