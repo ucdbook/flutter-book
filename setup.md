@@ -70,9 +70,9 @@ print(user.values.toList());     //[XiaoHong, 23, 杭州]
 user.forEach((key, value) {
   print('key=$key value=$value');
 });
-// key=name value=XiaoHong
-// key=age value=23
-// key=adress value=杭州
+                                // key=name value=XiaoHong
+                                // key=age value=23
+                                // key=adress value=杭州
 
 user.remove('name');
 print(user);                   // {age: 23, adress: 杭州}
