@@ -2,7 +2,7 @@
 
 dart官网\(中文\)[https://dart.cn/tools/webdev](https://dart.cn/tools/webdev)
 
-总的来说，Dart语言与Javascript还是很像的。如果写过typescript的人，因该更容易上手。
+总的来说，Dart语法与Javascript还是很像的。Dart语法比javascript更严谨一些。如果写过typescript的人，因该更容易上手。
 
 A. 每个应用都有一个 main\(\) 顶层函数
 
