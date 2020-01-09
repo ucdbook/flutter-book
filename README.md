@@ -29,6 +29,8 @@ Flutter框架是一个分层的结构，每个层都建立在前一层之上。
 
 ![](/assets/flutterfeiceng.png)
 
+Engine为Framework提供了完整的运行环境。
+
 Foundation层由dart:ui实现。 dart:ui提供了Framework能够运行的最基础功能，比如绘图，界面刷新，触屏，鼠标等事件的原始信息等。
 
 Rendering层由几个子模块组成：Animation, Painting, Gestures. 在这一层，Flutter提供RenderObject，实现完整的布局，绘制功能。
@@ -36,4 +38,8 @@ Rendering层由几个子模块组成：Animation, Painting, Gestures. 在这一�
 Widgets层是开发者最常接触到的一层。 Widget是对RenderObject的封装。在Widget层，Flutter实现了响应式开发框架。
 
 Material+Cupertino层，在这一层，Flutter提供了一系列的Widget，其中Material Widget实现了Material Design。Cupertino提供了一系列的iOS-Style的控件。
+
+
+
+
 
