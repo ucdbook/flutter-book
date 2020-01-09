@@ -4,12 +4,25 @@ dart官网\(中文\)[https://dart.cn/tools/webdev](https://dart.cn/tools/webdev)
 
 总的来说，Dart语法与Javascript还是很像的。Dart语法比javascript更严谨一些。如果写过typescript的人，因该更容易上手。
 
-A. 每个应用都有一个 main\(\) 顶层函数
+每个应用都有一个 main\(\) 顶层函数
 
 ```
 main() {
     print('Hello, World!');
 }
+```
+
+导入其它dart文件
+
+```
+// 导入核心库
+import 'dart:math';
+
+// 从外部 Package 中导入库
+import 'package:test/test.dart';
+
+// 导入文件
+import 'path/to/my_other_file.dart';
 ```
 
 B. 变量可以声明数据类型, 但大多数变量也可以用final、var来声明
