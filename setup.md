@@ -103,7 +103,7 @@ class MyClass {
 ```
 //构建函数
 void main() { 
-   MyClass c = new MyClass('EA888'); 
+   MyClass myClass = new MyClass('EA888'); 
 } 
 class MyClass {
   //num currCount = 0;
