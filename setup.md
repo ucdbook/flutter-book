@@ -58,7 +58,7 @@ D. 函数的可选参数: 两种形式
 String fn(String msg, [msgB]) {
     return msg + msgB;
 }
-fn('Hello, ', 'World!') 
+fn('Hello, ', 'World!') //Hello, World!
 
 String fn({String msg}) {
     return msg;
