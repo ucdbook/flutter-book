@@ -4,7 +4,7 @@ dart官网\(中文\)[https://dart.cn/tools/webdev](https://dart.cn/tools/webdev)
 
 总的来说，Dart语法与Javascript还是很像的。Dart语法比javascript更严谨一些。如果写过typescript的人，因该更容易上手。
 
-每个应用都有一个 main\(\) 顶层函数
+**每个应用都有一个 main\(\) 顶层函数**
 
 ```
 main() {
@@ -12,7 +12,7 @@ main() {
 }
 ```
 
-导入其它dart文件
+**导入其它dart文件**
 
 ```
 // 导入核心库
@@ -25,7 +25,7 @@ import 'package:test/test.dart';
 import 'path/to/my_other_file.dart';
 ```
 
-B. 变量可以声明数据类型, 但大多数变量也可以用final、var来声明
+**变量可以声明数据类型, 但大多数变量也可以用final、var来声明**
 
 ```
 var string = 'Hello, World!';
@@ -50,7 +50,9 @@ list.add(1);
 list.add(1); //[1,1,1]
 ```
 
-C. 函数的定义\(声明方式需要用void，有返回的必须用返回值的类型声明\)
+**函数的定义**
+
+声明方式需要用void，有返回的必须用返回值的类型声明
 
 ```
 // 无返回结果的函数
@@ -64,7 +66,7 @@ String fn() {
 }
 ```
 
-D. 函数分必传参数与可选参数: 两种定义形式
+函数分必传参数与可选参数: 两种定义形式
 
 ```
 //可选位置参数
