@@ -23,5 +23,17 @@ widget分类:
 
 ![](/assets/widgettree.png)
 
+#### 分层的框架 {#分层的框架}
+
+Flutter框架是一个分层的结构，每个层都建立在前一层之上。
+
+![](/assets/flutterfeiceng.png)
+
+
+
+
+
+
+
 
 
