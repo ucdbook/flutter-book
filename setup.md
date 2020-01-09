@@ -116,7 +116,7 @@ void main() {
 } 
 class MyClass {
   //num currCount = 0;
-  num count;
+  num _count;
 
   MyClass({count}){
     currCount = count;
@@ -135,14 +135,14 @@ class MyClass {
 
   void set currCount(num count) {
     if(count>= 5) {
-      this.count = 0;
+      this._count = 0;
     }  else {
-      this.count = count;
+      this._count = count;
     }
   }
 
   num get currCount {
-    return count;
+    return _count;
   }
 };
 ```
