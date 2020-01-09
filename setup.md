@@ -51,22 +51,21 @@ String fn() {
 }
 ```
 
-D. 函数的参数传递
+D. 函数的可选参数: 两种形式
 
 ```
-String fn(String msg) {
-    return msg;
+//可选位置参数
+String fn(String msg, [msgB]) {
+    return msg + msgB;
 }
-fn('Hello, World!') 
+fn('Hello, ', 'World!') 
 
 String fn({String msg}) {
     return msg;
 }
 fn(
     msg: 'Hello, World!'
-) 
-
-
+)
 ```
 
 
