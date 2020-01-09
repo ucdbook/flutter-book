@@ -8,7 +8,20 @@ Flutter包括一个现代的响应式框架、一个2D渲染引擎、现成的wi
 
 ## 核心原则 {#核心原则}
 
+**一切皆为widget**
 
+Widget是Flutter应用程序用户界面的基本构建块。每个Widget都是用户界面一部分的不可变声明。 与其他将视图、控制器、布局和其他属性分离的框架不同，Flutter具有一致的统一对象模型：widget。
+
+Widget本身通常由许多更小的、单一用途widget组成，这些widget通过**组合、嵌套**的方式组合起来产生强大的效果。  
+例如：[Container](https://github.com/flutter/flutter/blob/master/packages/flutter/lib/src/widgets/container.dart)是一个常用的widget， 由多个widget组成，这些widget负责布局、绘制、定位和调整大小。
+
+widget分类:
+
+1. 基础容器widget
+2. 布局widget
+3. 装饰widget
+
+![](/assets/widgettree.png)
 
 
 
