@@ -87,7 +87,7 @@ user['name'] = 'WangHong';
 print(user);                    //{name: WangHong}
 ```
 
-与javascript对比，键值必须加引号、取、增、册的方式有一些小变化。
+与javascript对比，键值必须加引号、取、增、删的方式有一些小变化。
 
 **List的操作**
 
@@ -95,7 +95,7 @@ print(user);                    //{name: WangHong}
 
 ```
 
-与javascript对比，键值必须加引号、取、增、册的方式有一些小变化。
+与javascript对比，取、增、删的方式有一些小变化。
 
 **函数的定义**
 
