@@ -108,11 +108,15 @@ void main() {
     count: 3
   );
   myClass.chageCount('add');
-  print(myClass.currCount); //4
+  print(myClass.currCount); // 4
   myClass.chageCount('add');
-  print(myClass.currCount); //0
+  print(myClass.currCount); // 0
   myClass.chageCount('add');
-  print(myClass.currCount); //1
+  print(myClass.currCount); // 1
+  myClass
+  ..chageCount('add')
+  ..chageCount('add');  //联级运算符
+  print(myClass.currCount); // 3
 }
 class MyClass {
   //num currCount = 0;
