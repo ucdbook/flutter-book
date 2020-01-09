@@ -80,6 +80,9 @@ print(user);                    // {age: 23, adress: 杭州}
 user.clear();
 print(user);                    // {}
 print(user.isEmpty);            // true
+
+user['name'] = 'WangHong';
+print(user);                    //{name: WangHong}
 ```
 
 **List的操作**
