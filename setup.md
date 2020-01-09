@@ -75,11 +75,11 @@ user.forEach((key, value) {
                                 // key=adress value=杭州
 
 user.remove('name');
-print(user);                   // {age: 23, adress: 杭州}
+print(user);                    // {age: 23, adress: 杭州}
 
 user.clear();
-print(user);                   // {}
-print(user.isEmpty);           // true
+print(user);                    // {}
+print(user.isEmpty);            // true
 ```
 
 **函数的定义**
