@@ -103,18 +103,17 @@ class MyClass {
 
 ```
 //例子:
-void main() { 
-   MyClass myClass = new MyClass(
-     count: 3
-   ); 
-   myClass.chageCount('add');
-   print(myClass.currCount); //4
-   myClass.chageCount('add');
-   print(myClass.currCount); //5
-   myClass.chageCount('add');
-   print(myClass.currCount); //0
-
-} 
+void main() {
+  MyClass myClass = new MyClass(
+    count: 3
+  );
+  myClass.chageCount('add');
+  print(myClass.currCount); //4
+  myClass.chageCount('add');
+  print(myClass.currCount); //0
+  myClass.chageCount('add');
+  print(myClass.currCount); //1
+}
 class MyClass {
   //num currCount = 0;
   //私有变量(实例化中无法访问)
@@ -123,7 +122,7 @@ class MyClass {
   void set currCount(num count) {
     if(count>= 5) {
       this._count = 0;
-    }  else {
+    } else {
       this._count = count;
     }
   }
@@ -148,7 +147,7 @@ class MyClass {
         break;
     }
   }
-};
+}
 ```
 
 
