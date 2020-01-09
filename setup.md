@@ -7,9 +7,14 @@ dart官网\(中文\)[https://dart.cn/tools/webdev](https://dart.cn/tools/webdev)
 **每个应用都有一个 main\(\) 顶层函数**
 
 ```
+//的test.dart可
 main() {
     print('Hello, World!');
 }
+
+...
+
+//在终端执行dart test.dart将自动进入main函数
 ```
 
 **导入其它dart文件**
