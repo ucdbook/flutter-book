@@ -117,6 +117,7 @@ void main() {
 } 
 class MyClass {
   //num currCount = 0;
+  //私有变量
   num _count;
 
   void set currCount(num count) {
