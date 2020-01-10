@@ -1,4 +1,4 @@
-## Dart编程语言
+## Dart web前端学习笔记
 
 Dart编程语言可以对照web前端所熟习的Node编程语言。
 
@@ -7,17 +7,7 @@ Dart编程语言可以对照web前端所熟习的Node编程语言。
 
 以下是我对比javascript语法的区别，逻列了一些常用到内容；
 
-**每个应用都有一个 main\(\) 顶层函数**
 
-```
-//test.dart
-main() {
-    print('Hello, World!'); //打印操作,类似于javascript的console.log
-}
-...
- 
-//在终端执行dart test.dart将自动进入main函数
-```
 
 **导入其它dart文件**
 
@@ -34,13 +24,13 @@ import 'path/to/my_other_file.dart';
 
 **变量的定义**
 
-众所周知，JavaScript 是一门弱类型的语言，而 Dart 是强类型的语言。但dart也支持一些弱类型，Dart 中弱类型有`var`, `Object` 以及`dynamic`
+众所周知，JavaScript 是一门弱类型的语言，而 Dart 是强类型的语言。但dart也支持一些弱类型，Dart 中弱类型有`var`, `Object` 以及`dynamic`
 
-大家在学习dart的过程中，可能有疑问：同为弱类型，final, `var`, `Object` 以及`dynamic`**有什么区别？**
+大家在学习dart的过程中，可能有疑问：同为弱类型，final, `var`, `Object` 以及`dynamic`**有什么区别？**
 
 1. final 常量，类似JavaScript的const；
-2. var 初始可定义, 如果有初始值，那么其类型将会被锁定，定义之后不可改变类型
-3. Object 动态任意类型，编译阶段检查类型
+2. var 初始可定义, 如果有初始值，那么其类型将会被锁定，定义之后不可改变类型
+3. Object 动态任意类型，编译阶段检查类型
 4. dynamic 动态任意类型，编译阶段不检查类型
 
 ```
