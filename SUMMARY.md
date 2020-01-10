@@ -4,7 +4,7 @@
 * [Dart web前端学习笔记](setup.md)
   * [每个应用都有一个 main\(\) 顶层函数](setup/mei-ge-ying-yong-du-you-yi-ge-main-ding-ceng-han-shu.md)
   * [导入其它dart文件](setup/dao-ru-qi-ta-dart-wen-jian.md)
-  * 变量的定义
+  * [变量的定义](setup/bian-liang-de-ding-yi.md)
   * 类型判断与bool值判断
   * Map的操作
   * List的操作
