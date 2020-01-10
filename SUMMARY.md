@@ -7,7 +7,7 @@
   * [变量的定义](setup/bian-liang-de-ding-yi.md)
   * [类型判断与bool值判断](setup/lei-xing-pan-duan-yu-bool-zhi-pan-duan.md)
   * [Map的操作](setup/mapde-cao-zuo.md)
-  * List的操作
+  * [List的操作](setup/listde-cao-zuo.md)
   * 函数的定义
   * 类的定义
   * [JSON的转换](setup/ru-he-ding-yi-yi-ge-lei-ji-si-you-fang-fa-3001-shu-xing-de-ding-yi.md)
