@@ -64,12 +64,14 @@ list.add(1); // [1,1,1]
 Map user = {'name': 'XiaoHong', 'age': 23};
 print(user['name']);             // XiaoHong
 
+/*增加*/
 user.addAll({'adress': '杭州'});
 print(user);                     // {name: XiaoHong, age: 23, adress: 杭州}
 print(user.length); // 3
 print(user.keys.toList());       //[name, age, adress]
 print(user.values.toList());     //[XiaoHong, 23, 杭州]
 
+/*遍利*/
 user.forEach((key, value) {
   print('key=$key value=$value');// key=name value=XiaoHong
                                  // key=age value=23
@@ -77,6 +79,7 @@ user.forEach((key, value) {
 
 });
 
+/*删除*/
 user.remove('name');
 print(user);                    // {age: 23, adress: 杭州}
 
@@ -84,8 +87,10 @@ user.clear();
 print(user);                    // {}
 print(user.isEmpty);            // true
 
+/*更新*/
 user['name'] = 'WangHong';
 print(user);                    //{name: WangHong}
+
 ```
 
 与javascript对比，键值必须加引号、取、增、删的方式有一些小变化。
@@ -126,6 +131,11 @@ list[0] = 'update';
 print(list); // [update, b, c, d]
 list.replaceRange(1, 3, ['update1', 'update2']);
 print(list); // [update, update1, update2, d]
+
+/*遍利*/
+list.forEach((item) {
+   print(item);
+});
 ```
 
 与javascript对比，增、删的方式有一些小变化。
