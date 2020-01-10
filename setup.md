@@ -9,6 +9,8 @@ Dart编程语言可以对照web前端所熟习的Node编程语言。
 
 以下是我对比javascript语法的区别，罗列了9点开发中常用到基础内容，如果有javascipt基础，上手开发基本上没有太大的问题；
 
+
+
 **想看更多详细内容请阅读：**
 
 dart官网\(中文\)：[https://dart.cn/tools/webdev](https://dart.cn/tools/webdev)
