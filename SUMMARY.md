@@ -9,7 +9,7 @@
   * [Map的操作](setup/mapde-cao-zuo.md)
   * [List的操作](setup/listde-cao-zuo.md)
   * [函数的定义](setup/han-shu-de-ding-yi.md)
-  * 类的定义
+  * [类的定义](setup/lei-de-ding-yi.md)
   * [JSON的转换](setup/ru-he-ding-yi-yi-ge-lei-ji-si-you-fang-fa-3001-shu-xing-de-ding-yi.md)
 * [Flutter入门](ru-men.md)
   * [环境安装](ru-men/huan-jing-an-zhuang.md)
